@@ -571,6 +571,7 @@ img {
 
 .footer .social {
   margin: 0;
+  margin-right: 93px;
 }
 
 .social .title {
@@ -580,6 +581,7 @@ img {
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
+  text-align: left;
 
   color: var(--white-text-color);
 }
@@ -641,7 +643,7 @@ img {
 
   transition: color 250ms var(--timing-function),
     background-color 250ms var(--timing-function),
-    box-shadow color 250ms var(--timing-function);
+    box-shadow 250ms var(--timing-function);
 }
 
 .buttons.filter:hover,
@@ -704,7 +706,8 @@ img {
   transform: translateY(100%);
 }
 
-.projects .link:hover .project-description {
+.projects .link:hover .project-description,
+.projects .link:focus .project-descriptio {
   transform: translateY(0);
 }
 
